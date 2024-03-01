@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  background-color: rgb(129, 181, 209);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.openmodal{
+  height: 50px;
+  width: 100px;
+  background-color: rgba(100, 148, 237, 0.272);
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  position: relative;
+  border: 2px solid black;
+}
+
+.modal{
+  height: 500px;
+  width: 500px;
+  background-color: rgb(34, 45, 74);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  border-radius: 15px;
+  border: 2px solid rgb(255, 255, 255);
+}
+.close{
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  left: 10px;
+  background-color: rgb(109, 201, 222);
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 15px;
+}
+.screenresizebutton{
+  height: 50px;
+  width: 100px;
+  background-color: rgba(100, 148, 237, 0.272);
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  top: 45%;
+  left: 45%;
+  margin-left: 5px;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  position: relative;
+  border: 2px solid black;
+}
+.screenresize{
+  background-color: rgb(86, 130, 180);
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 40px;
+  position: absolute;
+}
